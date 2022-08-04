@@ -19,7 +19,7 @@ use League\MimeTypeDetection\FinfoMimeTypeDetector;
 use TaffoVelikoff\ImageKitAdapter\Exceptions\ImageKitConfigurationException;
 
 
-class ImagekitAdapter implements Flysystem\FilesystemAdapter {
+class ImageKitAdapter implements Flysystem\FilesystemAdapter {
 
     protected $client;
     protected $options;
